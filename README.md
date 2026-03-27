@@ -45,3 +45,12 @@ Acharya et al. (2017) – Deep Learning en ECG
 🚀 Mejora futura
 
 Extender a modelos de deep learning y clasificación multiclase.
+## 👥 Integrantes
+
+| Nombre                 | Rol                          |
+|----------------------|------------------------------|
+| Rodrigo Zubiate      | Líder de proyecto            |
+| Juan Raúl Ramírez    | Procesamiento de señales     |
+| Diego Carlín         | Desarrollo de algoritmos     |
+| David Aguilar        | Análisis de datos            |
+| Davidt Fernández     | Documentación y testing      |
