@@ -36,25 +36,25 @@
 
 	**Fase 2: Recolección de datos**
 
-- Reclutamiento de participantes  
-- Ejecución del test  
-- Registro de señales EMG \+ desempeño (distancia/tiempo)
+		- Reclutamiento de participantes  
+		- Ejecución del test  
+		- Registro de señales EMG \+ desempeño (distancia/tiempo)
 
 	**Fase 3: Procesamiento y análisis**
 
-- Filtrado de señales EMG  
-- Cálculo de:  
-  - RMS  
-  - Frecuencia mediana  
-  - Índice de co-activación (CCI)  
-- Comparación entre grupos
+		- Filtrado de señales EMG  
+		- Cálculo de:  
+		  - RMS  
+		  - Frecuencia mediana  
+		  - Índice de co-activación (CCI)  
+		- Comparación entre grupos
 
 	**Fase 3: Interpretación y presentación**
 
-- Análisis de resultados  
-- Comparación con literatura preexistente  
-- Conclusiones  
-- Informe final
+		- Análisis de resultados  
+		- Comparación con literatura preexistente  
+		- Conclusiones  
+		- Informe final
 
 5. # **Bibliografía**
 
