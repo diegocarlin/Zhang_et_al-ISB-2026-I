@@ -18,13 +18,15 @@
    Ante la limitación de las pruebas funcionales convencionales para revelar las estrategias neuromusculares subyacentes al control postural. Se propone un enfoque de evaluación bifuncional que combina el Y-Balance Test con el registro simultáneo de electromiografía de superficie (EMG) en estudiantes de 18 a 25 años de la Universidad Cayetano Heredia, agrupados según su composición corporal. Durante la ejecución del test, se registrará la actividad eléctrica de ocho músculos de la extremidad inferior de apoyo, extrayendo de cada señal los indicadores de amplitud (RMS) y frecuencia mediana, a partir de los cuales se calculará el Índice de Co-activación (CCI) entre pares agonista-antagonista.  
      
    <img width="850" height="343" alt="image" src="https://github.com/user-attachments/assets/a3e30d41-7e90-496f-912f-b9c0937db416" />
+
    Fig 1: Protocolo de evaluación del Y-Balance Test en futbolistas profesionales, en direcciones anterior, posteromedial y posterolateral \[4\]  
      
-   ![][image2]  
+   <img width="654" height="291" alt="image" src="https://github.com/user-attachments/assets/d112711e-7739-4565-a454-161d49c946b5" />
+   
    Fig 2: Colocación de electrodos para el examen de la función de los músculos vasto lateral, vasto medial, bíceps femoral y semitendinoso \[5\]  
    
 
-4. # Plan de actividades
+5. # Plan de actividades
 
    **Fase 1: Diseño y validación del protocolo**  
 - Definición final del protocolo del Y-Balance Test  
