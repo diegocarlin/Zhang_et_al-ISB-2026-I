@@ -29,10 +29,10 @@
 5. # Plan de actividades
 
    **Fase 1: Diseño y validación del protocolo**  
-- Definición final del protocolo del Y-Balance Test  
-- Selección de músculos y colocación de electrodos  
-- Pruebas iniciales en 1 \- 2 sujetos  
-- Ajuste del protocolo según calidad de la señal
+		- Definición final del protocolo del Y-Balance Test  
+		- Selección de músculos y colocación de electrodos  
+		- Pruebas iniciales en 1 \- 2 sujetos  
+		- Ajuste del protocolo según calidad de la señal
 
 	**Fase 2: Recolección de datos**
 
