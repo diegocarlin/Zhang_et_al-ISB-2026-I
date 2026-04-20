@@ -1,7 +1,7 @@
 # Zhang_et_al-ISB-2026-I
 Repositorio perteneciente al grupo 3 de Introducción a Señales Biomédicas
 
-# Análisis Neuromuscular del Control Postural: Y-Balance Test + EMG
+# Caracterización de las estrategias de co-activación Neuromuscular durante el Y-Balance Test en Estudiantes Universitarios
 
 ## 📝 Descripción
 Este proyecto integra el **Y-Balance Test** con **Electromiografía de Superficie (sEMG)** para evaluar la estabilidad dinámica en estudiantes universitarios (18-25 años). El enfoque principal es analizar el **Índice de Co-activación (CCI)** para descubrir las estrategias neuromusculares ocultas tras el rendimiento físico observable y mitigar el riesgo de lesiones por sedentarismo.
