@@ -1,50 +1,18 @@
 # Zhang_et_al-ISB-2026-I
 Repositorio perteneciente al grupo 3 de Introducción a Señales Biomédicas
-🫀 Detección de Arritmias en Señales ECG
 
-Proyecto de nivel intermedio para el curso de Introducción a Señales Biomédicas, enfocado en el procesamiento y clasificación de señales ECG.
+Descripción
+Este proyecto integra el Y-Balance Test con Electromiografía de Superficie (sEMG) para evaluar la estabilidad dinámica en estudiantes universitarios (18-25 años). El enfoque principal es analizar el Índice de Co-activación (CCI) para descubrir las estrategias neuromusculares ocultas tras el rendimiento físico observable.
+Objetivo
+Identificar si diferentes perfiles corporales (delgado, sobrepeso y atlético) utilizan estrategias de activación muscular distintas para lograr el equilibrio, permitiendo fundamentar programas de fisioterapia preventiva personalizada.
+Metodología
+El flujo de trabajo técnico se divide en tres fases críticas:
+Captura Biomecánica: Ejecución del Y-Balance Test con registro simultáneo de 8 músculos de la extremidad inferior.
+Procesamiento de Señal (DSP):
+Filtrado digital para eliminación de artefactos de movimiento y ruido de red (60 Hz).
+Cálculo de métricas de amplitud (RMS) y Frecuencia Mediana.
+Análisis Funcional: Cálculo del CCI entre pares agonista-antagonista para cuantificar la eficiencia neuromuscular vs. la rigidez articular.
 
-📌 Descripción
-
-Se desarrolla un sistema básico para analizar señales electrocardiográficas (ECG) con el fin de detectar arritmias. El flujo incluye filtrado, detección de complejos QRS, extracción de características y clasificación de latidos.
-
-🎯 Objetivo
-
-Implementar un algoritmo que permita identificar latidos normales y anormales a partir de señales ECG.
-
-🧠 Metodología
-Preprocesamiento: filtrado pasa banda (0.5–40 Hz)
-Detección QRS: algoritmo de Pan-Tompkins
-Características: intervalo RR, duración QRS, amplitud
-Clasificación: modelos básicos como KNN o SVM
-💻 Implementación
-
-Herramientas:
-
-Python, NumPy, SciPy
-Matplotlib, Scikit-learn, WFDB
-
-Dataset recomendado:
-
-MIT-BIH Arrhythmia Database
-https://physionet.org/content/mitdb/
-▶️ Uso
-git clone https://github.com/tuusuario/ecg-arrhythmia-detection.git
-cd ecg-arrhythmia-detection
-pip install -r requirements.txt
-python main.py
-📊 Resultados
-
-Se espera detectar correctamente picos R y clasificar arritmias básicas, evaluando con métricas como accuracy y recall.
-
-📚 Referencias
-Pan & Tompkins (1985) – QRS Detection
-PhysioNet – MIT-BIH Database
-Clifford et al. (2006) – ECG Analysis
-Acharya et al. (2017) – Deep Learning en ECG
-🚀 Mejora futura
-
-Extender a modelos de deep learning y clasificación multiclase.
 ## 👥 Integrantes
 
 | Nombre                 | Rol                          |
