@@ -40,7 +40,7 @@ Cada evaluación tuvo una duración aproximada de **1 a 2 minutos** (fijado en 2
 
 ### 2.2. Videos de la captura de datos
 * **Video de la señal:** *(Añadir aquí el enlace al video mostrando el reposo, el movimiento y la pantalla)*
-
+https://github.com/user-attachments/assets/c62726f7-ccb3-4288-a3a7-ccb89e7e1dfd
 ## 
 
 ## 3\. Ploteo de Señales en OpenSignals
