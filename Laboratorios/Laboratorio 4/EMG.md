@@ -35,7 +35,9 @@ Cada evaluación tuvo una duración aproximada de **1 a 2 minutos** (fijado en 2
 
 ## 2\. Registro Fotográfico y Audiovisual
 
-* **Fotos de la conexión:** *(Añadir aquí el enlace a las fotos de los electrodos en el cuerpo y los cables al BITalino)*
+* **Fotos de la conexión:**
+  <img width="993" height="628" alt="image" src="https://github.com/user-attachments/assets/74c2cebb-a0fc-4404-a895-5d6d656e600b" />
+
 * **Video de la señal:** *(Añadir aquí el enlace al video mostrando el reposo, el movimiento y la pantalla)*
 
 ## 
