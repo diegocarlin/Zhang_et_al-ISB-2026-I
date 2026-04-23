@@ -1,4 +1,6 @@
-**Q1. ¿Cuáles son las frecuencias significativas para las adquisiciones de EMG? ¿Son iguales en todas las áreas del cuerpo, como el área facial?**  
+# Cuestionario sobre Electromiografía (EMG)
+
+### Q1. ¿Cuáles son las frecuencias significativas para las adquisiciones de EMG? ¿Son iguales en todas las áreas del cuerpo?
 Las señales de electromiografía suelen tener un rango de frecuencia relevante que oscila entre los 10 Hz y los 500 Hz, concentrándose la mayor parte de la energía capturada entre los 20 Hz y 150 Hz.  
 Por otro lado, las frecuencias no son exactamente iguales en todas las áreas del cuerpo, debido a que los músculos faciales suelen tener unidades motoras más pequeñas y rápidas en comparación con los músculos grandes de las extremidades. Esto desplaza la frecuencia hacia rangos ligeramente más altos en el área facial debido a la velocidad de activación necesaria para expresiones precisas.
 
