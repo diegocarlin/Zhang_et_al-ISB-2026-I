@@ -77,11 +77,19 @@ A continuación se presentan las gráficas obtenidas directamente de la interfaz
 
 ### 4.1. Señal del Brazo en reposo
 
-La señal presenta una amplitud muy baja (cercana a 0 mV), viéndose casi plana. Esto se debe a que el músculo del brazo no realiza ningún tipo de movimiento durante la medición, lo que genera que no haya cambios de amplitud y frecuencia en la señal, y que sea el ruido electrónico del sistema la única variable que el BITalino llegue a medir. 
+La señal presenta una amplitud muy baja (cercana a 0 mV), viéndose casi plana. Esto se debe a que el músculo del brazo no realiza ningún tipo de movimiento durante la medición, lo que genera que no haya cambios de amplitud y frecuencia en la señal, y que sea el ruido electrónico del sistema lo que el BITalino llegue a medir. 
 
-### 4.1. Señal del Brazo en movimiento
+### 4.2. Señal del Brazo en movimiento
 
-La señal presenta 
+La señal muestra cambios notorios en la amplitud (cercana a +/- 1.5 V) en forma de picos, aunque se notan patrones irregulares entre éstos, porque se observan picos con amplitudes muy distintas entre etras, junto con un mayor ruido en la señal. Estas irregularidades pueden deberse a las contracciones medidas, ya que se realizaron con distintas intensidades, resultando en que la señal presente distintas amplitudes y frecuencias.
+
+### 4.3. Señal del Muslo en reposo
+
+Similar a la primera señal, esta señal presenta una amplitud muy baja (cercana a 0 mV), porque el muslo no realiza ningún tipo de movimiento durante la medición, evitando cambios de amplitud y frecuencia en la señal, y que el BITalino solo mida ruido electrónico. 
+
+### 4.4. Señal del Muslo en movimiento
+
+La señal muestra cambios notorios en la amplitud (cercana a +/- 1.5 V) en forma de picos, con patrones más periódicos o repetitivos, porque la amplitud se mantiene casi constante. Estos picos repetitivos son causados por las contracciones del muslo, las cualees fueron más coordinadas entre sí, generando amplitudes y frecuencias similares durante cada pico. 
 
 
 
