@@ -1,3 +1,4 @@
+<div align="justify">
 # Cuestionario sobre Electromiografía (EMG)
 
 ### Q1. ¿Cuáles son las frecuencias significativas para las adquisiciones de EMG? ¿Son iguales en todas las áreas del cuerpo, como el área facial?
@@ -11,3 +12,4 @@ La amplitud de la señal EMG está directamente relacionada con la intensidad de
 
 ### Q5. Según tus conocimientos, ¿la amplitud de la EMG es igual a la cantidad de fuerza que has generado con tu músculo?**  
 No, la amplitud de la EMG no es una medida directa de la fuerza mecánica generada por el músculo, debido a que la fatiga muscular puede aumentar la amplitud de la EMG incluso si la fuerza producida disminuye, asimismo, el cambio en la longitud del músculo altera la amplitud detectada sin que necesariamente cambie la fuerza. Por último, el grosor del tejido subcutáneo, la posición de los electrodos y la impedancia de la piel influyen en la amplitud registrada sin que la fuerza real cambie. 
+</div>
