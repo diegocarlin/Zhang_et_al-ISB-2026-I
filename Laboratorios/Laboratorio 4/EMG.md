@@ -35,9 +35,10 @@ Cada evaluación tuvo una duración aproximada de **1 a 2 minutos** (fijado en 2
 
 ## 2\. Registro Fotográfico y Audiovisual
 
-* **Fotos de la conexión:**
-  <img width="993" height="628" alt="image" src="https://github.com/user-attachments/assets/74c2cebb-a0fc-4404-a895-5d6d656e600b" />
+### 2.1. Foto de conexión de electrodos en el cuerpo
+<img width="968" height="577" alt="image" src="https://github.com/user-attachments/assets/82d93c61-779b-4aa5-ac4a-9b775bdc7aa9" />
 
+### 2.2. Videos de la captura de datos
 * **Video de la señal:** *(Añadir aquí el enlace al video mostrando el reposo, el movimiento y la pantalla)*
 
 ## 
