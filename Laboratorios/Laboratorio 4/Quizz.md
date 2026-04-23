@@ -13,9 +13,9 @@ Es esencial aplicar un Filtro de Banda. Por un parte aplicar el Filtro Pasa-Alto
 La amplitud de la señal EMG está directamente relacionada con la intensidad de la contracción. Es decir, a mayor fuerza o esfuerzo muscular, más unidades motoras se reclutan y disparan a frecuencias más altas, lo que resulta en un aumento de la amplitud de la señal. Por lo tanto, según la ubicación la amplitud va a variar ya que depende del tamaño del músculo, la densidad de fibras musculares, la profundidad del músculo respecto a la piel y la cantidad de tejido adiposo entre el músculo y el electrodo. 
 
 ### Q4. Muestre una captura de pantalla de una porción relevante de los datos de electromiografía (EMG) dentro del experimento propuesto en la sección D de un musculo facial ¿Esta señal corresponde a lo que esperaba? ¿Por qué?  ¿Qué emoción y acción realizó para activar el musculo? ¿Qué musculo activo? 
-<img width="980" height="745" alt="image" src="https://github.com/user-attachments/assets/a3e1d8a1-492c-4f2a-a08d-bc22c30d7296" />
-
 Para esta práctica, se realizó la adquisición de señales electromiográficas colocando los electrodos en la cara anterior del muslo, posicionándolos en el musculo recto femoral y el sartorio aproximadamente, y para garantizar una señal limpia se utilizó el tarso  como punto de referencia. 
+
+<img width="980" height="745" alt="image" src="https://github.com/user-attachments/assets/a3e1d8a1-492c-4f2a-a08d-bc22c30d7296" />
 
 Al observar las capturas de OpenSignals, la señal en reposo muestra una línea de base sumamente estable con una amplitud mínima, esto indica una correcta colocación de los electrodos y un buen contacto con la piel, confirmando que los músculos no presentan una pre-activación significativa. 
 En contraste, la señal en movimiento muestra ráfagas de actividad eléctrica de gran amplitud, este cambio drástico es el resultado de realizar la extensión de la pierna, lo cual genera una señal estocástica pero proporcional al esfuerzo realizado.
