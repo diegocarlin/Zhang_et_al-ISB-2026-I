@@ -17,6 +17,7 @@ Para esta práctica, se realizó la adquisición de señales electromiográficas
 
 <img width="980" height="745" alt="image" src="https://github.com/user-attachments/assets/a3e1d8a1-492c-4f2a-a08d-bc22c30d7296" />
 
+
 Al observar las capturas de OpenSignals, la señal en reposo muestra una línea de base sumamente estable con una amplitud mínima, esto indica una correcta colocación de los electrodos y un buen contacto con la piel, confirmando que los músculos no presentan una pre-activación significativa. 
 En contraste, la señal en movimiento muestra ráfagas de actividad eléctrica de gran amplitud, este cambio drástico es el resultado de realizar la extensión de la pierna, lo cual genera una señal estocástica pero proporcional al esfuerzo realizado.
 
