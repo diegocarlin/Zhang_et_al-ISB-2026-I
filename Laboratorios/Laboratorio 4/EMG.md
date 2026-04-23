@@ -39,9 +39,18 @@ Cada evaluación tuvo una duración aproximada de **1 a 2 minutos** (fijado en 2
 <img width="968" height="577" alt="image" src="https://github.com/user-attachments/assets/82d93c61-779b-4aa5-ac4a-9b775bdc7aa9" />
 
 ### 2.2. Videos de la captura de datos
-* **Video de la señal:** *(Añadir aquí el enlace al video mostrando el reposo, el movimiento y la pantalla)*
+#### 2.2.1. Brazo en reposo
 https://github.com/user-attachments/assets/c62726f7-ccb3-4288-a3a7-ccb89e7e1dfd
-## 
+
+#### 2.2.2. Brazo en movimiento
+https://github.com/user-attachments/assets/7661854a-ba69-45cd-9433-009c79ba6adf
+
+#### 2.2.3. Muslo de la pierna en reposo
+https://github.com/user-attachments/assets/33a9fd27-58cd-4c31-b671-2cd659c594ef
+
+#### 2.2.4. Muslo de la pierna en movimiento
+https://github.com/user-attachments/assets/4b288360-fcaa-4296-919c-e694e9ca580f
+
 
 ## 3\. Ploteo de Señales en OpenSignals
 
