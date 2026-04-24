@@ -59,24 +59,20 @@ A continuación se presentan las gráficas obtenidas directamente de la interfaz
 ### 3.1. Pruebas en el Bíceps
 
 * **Reposo:**
+<img width="1200" height="400" alt="Brazo_reposo" src="https://github.com/user-attachments/assets/c5fd8ce4-100f-41e8-b2c7-ea2afbafd99a" />
 
-<img width="1200" height="400" alt="Pierna_reposo" src="https://github.com/user-attachments/assets/c87382c4-5723-44fb-8677-79e2fd54d682" />
 
 * **Movimiento:**
-!\[Ploteo Bíceps Movimiento](Brazo.png)
-📄 [*Ver reporte OpenSignals - Brazo Movimiento*](Prueba_Brazo.pdf)
+<img width="1200" height="400" alt="Brazo" src="https://github.com/user-attachments/assets/eb2791fd-3bee-4435-91f7-86ae2e5e1508" />
+
 
 ### 3.2. Pruebas en el Muslo (Vasto Lateral)
 
 * **Reposo:**
-!\[Ploteo Pierna Reposo](Pierna\_reposo.png)
-📄 [*Ver reporte OpenSignals - Pierna Reposo*](Prueba_Pierna_reposo.pdf)
+<img width="1200" height="400" alt="Pierna_reposo" src="https://github.com/user-attachments/assets/9742b89e-ded2-41a7-aa5f-fdd829c2124c" />
+
 * **Movimiento:**
-!\[Ploteo Pierna Movimiento](Pierna.png)
-📄 [*Ver reporte OpenSignals - Pierna Movimiento*](Prueba_Pierna.pdf)
-
-
-
+<img width="1200" height="400" alt="Pierna" src="https://github.com/user-attachments/assets/ce386f9e-7619-4416-a72b-51dfa0dbb4f2" />
 
 
 
