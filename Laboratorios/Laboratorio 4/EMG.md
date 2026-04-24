@@ -59,8 +59,9 @@ A continuación se presentan las gráficas obtenidas directamente de la interfaz
 ### 3.1. Pruebas en el Bíceps
 
 * **Reposo:**
-!\[Ploteo Bíceps Reposo](Brazo\_reposo.png)
-📄 [*Ver reporte OpenSignals - Brazo Reposo*](Prueba_Brazo_reposo.pdf)
+
+<img width="1200" height="400" alt="Pierna_reposo" src="https://github.com/user-attachments/assets/c87382c4-5723-44fb-8677-79e2fd54d682" />
+
 * **Movimiento:**
 !\[Ploteo Bíceps Movimiento](Brazo.png)
 📄 [*Ver reporte OpenSignals - Brazo Movimiento*](Prueba_Brazo.pdf)
