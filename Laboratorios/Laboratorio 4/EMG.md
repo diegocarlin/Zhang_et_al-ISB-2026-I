@@ -82,8 +82,6 @@ A continuación se presentan las gráficas obtenidas directamente de la interfaz
 
 ## 4\. Análisis de la Señal
 
-*(En esta sección se debe incluir el resumen y explicación de la señal ploteada, justificando las variaciones de amplitud y frecuencia observadas durante el reposo y la contracción muscular).*
-
 ### 4.1. Señal del Brazo en reposo
 
 La señal presenta una amplitud muy baja (cercana a 0 mV), viéndose casi plana. Esto se debe a que el músculo del brazo no realiza ningún tipo de movimiento durante la medición, lo que genera que no haya cambios de amplitud y frecuencia en la señal, y que sea el ruido electrónico del sistema lo que el BITalino llegue a medir. 
