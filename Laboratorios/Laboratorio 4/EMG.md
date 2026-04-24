@@ -1,8 +1,5 @@
 # Laboratorio de Adquisición de Señales EMG con BITalino
 
-Esta sección contiene los registros, gráficas y códigos resultantes de la sesión de toma de mediciones de señales electromiográficas (EMG) en los músculos del bíceps y el muslo, utilizando el kit BITalino.
-
-\---
 
 ## 
 
