@@ -1,4 +1,4 @@
-<img width="5589" height="82" alt="image" src="https://github.com/user-attachments/assets/c376361e-176f-4315-8171-18842eafbad7" /># Cuestionario sobre Electrocardiografía (ECG)
+# Cuestionario sobre Electrocardiografía (ECG)
 
 <div align="justify">
 
