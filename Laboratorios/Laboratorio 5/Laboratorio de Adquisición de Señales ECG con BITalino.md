@@ -39,7 +39,7 @@ Se ejecutó un protocolo específico utilizando el software OpenSignals (r)evolu
 
 ### 2.2. Videos de la captura de datos
 #### 2.2.1. Sujeto en reposo
-<Espacio para video en reposo>
+https://github.com/user-attachments/assets/b443ec53-4550-473f-a133-59003dc12691
 
 #### 2.2.2. Sujeto en hiperventilación
 <Espacio para video en hiperventilación>
