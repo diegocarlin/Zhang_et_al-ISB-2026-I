@@ -35,7 +35,7 @@ Se ejecutó un protocolo específico utilizando el software OpenSignals (r)evolu
 ## 2. Registro Fotográfico y Audiovisual
 
 ### 2.1. Foto de conexión de electrodos en el cuerpo
-<Espacio para imagen de conexión de electrodos>
+<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/1a98e9b1-fba5-4f1a-983d-daacd6c750e8" />
 
 ### 2.2. Videos de la captura de datos
 #### 2.2.1. Sujeto en reposo
