@@ -56,19 +56,33 @@ A continuación se presentan las gráficas obtenidas directamente de la interfaz
 
 ### 3.1. Señal en Reposo
 
-<Espacio para gráfica en reposo>
+<img width="1012" height="411" alt="ECG-I_derivada_basal" src="https://github.com/user-attachments/assets/f8afeb4a-db21-40c3-915e-d4dc19c2de08" />
+<img width="1012" height="411" alt="ECG-II_derivada_basal" src="https://github.com/user-attachments/assets/a497dd51-cdca-43ac-9c23-43d0e0d2a799" />
+<img width="1012" height="411" alt="ECG-III_derivada_basal" src="https://github.com/user-attachments/assets/c5f50a90-23fe-44da-b0be-9f10e405d49b" />
+
+Aquí se muestran las señales en reposo después de la actividad física (Basal 2):
+<img width="1012" height="411" alt="ECG-II_derivada_basal2" src="https://github.com/user-attachments/assets/00e69d23-d50c-4db1-9fc8-3ce657ba6794" />
+<img width="1012" height="411" alt="ECG-I_derivada_basal2" src="https://github.com/user-attachments/assets/d892b0a3-12b1-469c-9c22-f4f7e50e6cb8" />
 
 ### 3.2. Señal en Hiperventilación
 
-<Espacio para gráfica en hiperventilación>
+<img width="1012" height="411" alt="ECG-II_derivada_CR" src="https://github.com/user-attachments/assets/d02e763c-03ec-4fac-9394-97626dcf813e" />
+<img width="1012" height="411" alt="ECG-I_derivada_CR" src="https://github.com/user-attachments/assets/e9809a28-5981-4663-bded-9cfc1803fc7b" />
+
 
 ### 3.3. Señal Post-Actividad Física (Burpees)
 
-<Espacio para gráfica post-actividad física>
+<img width="1012" height="411" alt="Burpee-III_derivada" src="https://github.com/user-attachments/assets/137c74b0-1df1-4d56-8026-86b1f01831ec" />
+<img width="1017" height="411" alt="Burpee-I_derivada" src="https://github.com/user-attachments/assets/2606ecb3-6e89-4620-bc4d-b39d0059cc02" />
+<img width="1012" height="411" alt="Burpee-II_derivada" src="https://github.com/user-attachments/assets/33acb041-5d76-4ab6-b21d-dd34d678683c" />
+
 
 ### 3.4. Señal en Hipoventilación
 
-<Espacio para gráfica en hipoventilación>
+<img width="1012" height="411" alt="Hipoventilación_III_derivada" src="https://github.com/user-attachments/assets/b99c4ca3-1c76-4faf-bf85-a0ec78051686" />
+<img width="1012" height="411" alt="Hipoventilación_I_derivada" src="https://github.com/user-attachments/assets/8fe540f5-759c-492b-8bad-2eac411ab1c0" />
+<img width="1012" height="411" alt="Hipoventilación_II_derivada" src="https://github.com/user-attachments/assets/a0d8efc7-9800-4918-b2c7-7cd910b9b60a" />
+
 
 ## 4. Análisis de la Señal
 
