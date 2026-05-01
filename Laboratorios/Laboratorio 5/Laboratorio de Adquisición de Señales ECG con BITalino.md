@@ -95,7 +95,7 @@ Al observar las señales capturadas, se identifican las siguientes característi
 
 ### 4.2. Análisis de la Señal en Hiperventilación
 
-
+Comparando estas señales con las de reposo, se pudo observar que no hubo cambios visibles entre las señales de la derivación I, esto ocurre porque esta señal observa el corazón de manera horizontal (los electrodos - y + están ubicados en la clavícula izquierda y la clavícula derecha, respectivamente), por lo que no puede detectar los cambios generados por la hiperventilación, ya que son más notorios en el eje vertical. Por eso, se obsevaron cambios en la señal de la derivación II, como una menor longitud de sus intervalos R-R y una mayor frecuencia cardiaca, eventos causados por una taquicardia leve producto de una rápida respiración.
 
 ### 4.3. Análisis de la Señal Post-Actividad Física
 
