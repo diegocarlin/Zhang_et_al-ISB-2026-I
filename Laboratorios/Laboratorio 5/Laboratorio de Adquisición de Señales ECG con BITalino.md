@@ -102,7 +102,7 @@ Al observar las señales capturadas, se identifican las siguientes característi
 
 - Derivación I: Se observa mucho ruido en la señal, provocando que los complejos QRS no puedan ser identificados con claridad. Esto ocurre porque, debido a la actividad física, los músculos esqueléticos terminan generando señales eléctricas mucho más potentes que la del corazón, generando un ruido de alta frecuencia en la señal medida por el BITalino.
 - Derivación II: La señal tiene un ritmo elevado, mayor que el de la hiperventilación, pero regular. Esto ocurre porque el corazón necesita bombear rápidamente sangre oxigenada a los músculos luego del esfuerzo físico para acelerar la recuperación muscular y reponer las reservas de energía gastadas.
-- Derivación III:
+- Derivación III: Se pueden observar claramente los picos R, aunque tienen una amplitud ligeramente menor que la DII. Presenta una frecuencia cardiaca elevada, producto del gran esfuerzo físico.
 
 ### 4.4. Análisis de la Señal en Hipoventilación
 
