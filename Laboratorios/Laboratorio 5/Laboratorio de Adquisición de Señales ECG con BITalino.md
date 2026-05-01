@@ -88,7 +88,10 @@ Aquí se muestran las señales en reposo después de la actividad física (Basal
 
 ### 4.1. Análisis de la Señal en Reposo
 
-
+Al observar las señales capturadas, se identifican las siguientes características clave:
+- Derivación I: Presenta la menor amplitud de voltaje (picos R cercanos a 0.2mV). Esto es coherente con la teoría, ya que el vector de despolarización ventricular suele ser casi perpendicular a la línea que une ambos brazos, proyectando una magnitud menor sobre este eje.
+- Derivación II: Es la señal más clara y con mayor amplitud, alcanzando picos R de aproximadamente 1.0mV. Esto sucede porque el eje eléctrico del corazón está casi alineado con el vector de esta derivación, lo que la convierte en la mejor opción para identificar ondas P y complejos QRS.
+- Derivación III: Muestra una amplitud intermedia (alrededor de 0.8 mV). La señal es nítida, permitiendo una visualización adecuada de la repolarización (onda T), aunque con una relación señal-ruido ligeramente menor que la DII en este registro particular.
 
 ### 4.2. Análisis de la Señal en Hiperventilación
 
