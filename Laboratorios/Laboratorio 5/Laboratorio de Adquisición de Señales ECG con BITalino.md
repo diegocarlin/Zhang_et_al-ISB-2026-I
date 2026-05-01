@@ -102,11 +102,13 @@ Al observar las señales capturadas, se identifican las siguientes característi
 
 - Derivación I: Se observa mucho ruido en la señal, provocando que los complejos QRS no puedan ser identificados con claridad. Esto ocurre porque, debido a la actividad física, los músculos esqueléticos terminan generando señales eléctricas mucho más potentes que la del corazón, generando un ruido de alta frecuencia en la señal medida por el BITalino.
 - Derivación II: La señal tiene un ritmo elevado, mayor que el de la hiperventilación, pero regular. Esto ocurre porque el corazón necesita bombear rápidamente sangre oxigenada a los músculos luego del esfuerzo físico para acelerar la recuperación muscular y reponer las reservas de energía gastadas.
-- Derivación III: Se pueden observar claramente los picos R, aunque tienen una amplitud ligeramente menor que la DII. Presenta una frecuencia cardiaca elevada, producto del gran esfuerzo físico.
+- Derivación III: Se pueden observar claramente los picos R, aunque tienen una amplitud ligeramente menor que la DII. Presenta una frecuencia cardiaca elevada, producto del gran esfuerzo físico. Además, la línea base de la señal tiende a oscilar por efecto de la respiración rápida, causada por la exigencia de oxígeno en los músculos.
 
 ### 4.4. Análisis de la Señal en Hipoventilación
 
-
+- Derivación I: Muestra con claridad sus complejos QRS, aunque siguen manteniendo su baja amplitud. No se observa ruido causado por interferencia muscular, a comparación de la señal luego de los burpees, debido a la lenta respiración.
+- Derivación II: Muestra picos R moderados (de 0.7 a 0.8 mV). No se muestra el balanceo de la línea de base causada por la respiración profunda, volviéndola mas recta y limpia. Además, los intervalos R-R son uniformes, lo que establece un ritmo cardiaco normal.
+- Derivación III: Se pueden identificar sus complejos QRS y picos R con claridad, indicando una señal estable. Sin embargo, existe una ligera ondulación en la línea de la base entre los 10 y 20 segundos. Esto puede deberse al movimiento torácico realizado para mantener la respiración mínima.
 
 ## 5. Datos y Procesamiento en Python
 
