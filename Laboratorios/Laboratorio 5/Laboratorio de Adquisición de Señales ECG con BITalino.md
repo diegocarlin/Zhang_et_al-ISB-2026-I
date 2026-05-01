@@ -100,7 +100,7 @@ Al observar las señales capturadas, se identifican las siguientes característi
 
 ### 4.3. Análisis de la Señal Post-Actividad Física
 
-
+- Derivación I: Se observa mucho ruido en la señal, provocando que los complejos QRS no puedan ser identificados con claridad. Esto ocurre porque, debido a la actividad física, los músculos esqueléticos terminan generando señales eléctricas mucho más potentes que la del corazón, generando un ruido de alta frecuencia en la señal medida por el BITalino
 
 ### 4.4. Análisis de la Señal en Hipoventilación
 
