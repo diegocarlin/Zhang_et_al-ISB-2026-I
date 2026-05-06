@@ -15,19 +15,14 @@ El artículo emplea principalmente filtros de respuesta finita al impulso (FIR) 
 *   Se aplica para sonidos pulmonares (100 Hz a 1000 Hz) el articulo especifica que se usa un filtro para aislar las frecuencias de interés, suprimiendo la interferencia de sonidos cardíacos por debajo de 100Hz y ruidos ambientales del hospital por encima de 1000 Hz
 
 ### 2. Filtro FIR con Ventana Kaiser
-*   **Aplicación:** Señal de neumografía de impedancia.
-*   **Rango:** 0.1 Hz a 0.8 Hz.
-*   **Función:** Capturar una tasa respiratoria fisiológicamente plausible (entre 6 y 48 respiraciones por minuto).
-*   **Referencia Visual (Figura 2):** 
-    *   Este filtro actúa como el punto de entrada que limpia la señal.
-    *   Permite que el bloque *"Detect Breaths"* identifique con precisión los valles o inicios de cada respiración.
-    *   **Importancia:** Evita fallos en el algoritmo de detección causados por la inestabilidad de la línea base o el ruido superpuesto.
+*   Este filtro se aplica a la señal de neumografía de impedancia para capturar una tasa respiratoria fisiológicamente plausible de entre 6 y 48 respiraciones por minuto en los rangos de 0.1 Hz a 0.8 Hz. 
+*   **Referencia Visual (Figura 2):**
+*   <img width="888" height="509" alt="image" src="https://github.com/user-attachments/assets/9bea192c-3ea6-4254-aab8-175f9be3762f" />
+
+    *   En el diagrama, este filtro es el punto de entrada que limpia la señal para que el siguiente bloque "Detect Breaths" pueda identificar con precisión los valles o inicios de cada respiración. Sin este filtrado específico, el algoritmo de detección de respiraciones fallaría debido a la inestabilidad de la línea base o al ruido superpuesto.
 
 ### 3. Filtro Antialiasing
-*   **Aplicación:** Previo al remuestreo de las señales.
-*   **Función:** Evitar el solapamiento de frecuencias (aliasing) durante el procesamiento digital.
+*   Utilizado antes del remuestreo de las señales para evitar el solapamiento de frecuencias..
 
 ### 4. Filtro de Fase Cero
-*   **Aplicación:** Sonidos pulmonares.
-*   **Función:** Procesar la señal sin introducir distorsiones de fase.
-*   **Importancia:** Crucial para mantener la morfología original de la señal, asegurando que los datos analizados sean una representación fiel de la actividad pulmonar.
+*   El artículo menciona explícitamente el uso de un filtro de fase cero para los sonidos pulmonares, esto es fundamental en el procesamiento ya que evita distorsiones de fase que podrían alterar la morfología de la señal original.
