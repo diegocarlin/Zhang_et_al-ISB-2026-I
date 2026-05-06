@@ -12,7 +12,7 @@ El objetivo principal de este trabajo es presentar y evaluar la viabilidad de un
 El artículo emplea principalmente filtros de respuesta finita al impulso (FIR) para el procesamiento de las señales. A continuación, se detallan los filtros mencionados:
 
 ### 1. Filtro Pasa-banda
-*   **Se aplica para sonidos pulmonares (100 Hz a 1000 Hz) el articulo especifica que se usa un filtro para aislar las frecuencias de interés, suprimiendo la interferencia de sonidos cardíacos por debajo de 100Hz y ruidos ambientales del hospital por encima de 1000 Hz
+*   Se aplica para sonidos pulmonares (100 Hz a 1000 Hz) el articulo especifica que se usa un filtro para aislar las frecuencias de interés, suprimiendo la interferencia de sonidos cardíacos por debajo de 100Hz y ruidos ambientales del hospital por encima de 1000 Hz
 
 ### 2. Filtro FIR con Ventana Kaiser
 *   **Aplicación:** Señal de neumografía de impedancia.
