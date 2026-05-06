@@ -21,7 +21,7 @@ El artículo emplea principalmente filtros de respuesta finita al impulso (FIR) 
 *   **Referencia Visual (Figura 2):**
 *   <img width="888" height="509" alt="image" src="https://github.com/user-attachments/assets/9bea192c-3ea6-4254-aab8-175f9be3762f" />
 
-*   En el diagrama, este filtro es el punto de entrada que limpia la señal para que el siguiente bloque "Detect Breaths" pueda identificar con precisión los valles o inicios de cada respiración. Sin este filtrado específico, el algoritmo de detección de respiraciones fallaría debido a la inestabilidad de la línea base o al ruido superpuesto.
+*   En el diagrama, este filtro es el punto de entrada que limpia la señal para que el siguiente bloque "Detect Breaths" pueda identificar con precisión los valles o inicios de cada respiración. Sin este filtrado específico, el algoritmo de detección de respiraciones fallaría debido a la inestabilidad de la linea base o al ruido superpuesto.
 
 ### 3. Filtro Antialiasing
 *   Utilizado antes del remuestreo de las señales para evitar el solapamiento de frecuencias..
