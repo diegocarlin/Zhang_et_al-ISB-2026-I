@@ -28,4 +28,11 @@ El artículo emplea principalmente filtros de respuesta finita al impulso (FIR) 
 
 ### 4. Filtro de Fase Cero
 *   El artículo menciona explícitamente el uso de un filtro de fase cero para los sonidos pulmonares, esto es fundamental en el procesamiento ya que evita distorsiones de fase que podrían alterar la morfología de la señal original.
+
+
+## Artículo 2
+**Title**
+
+## Referencias bibliográficas
+**J. A. Sanchez-Perez et al., "A Wearable Multimodal Sensing System for Tracking Changes in Pulmonary Fluid Status, Lung Sounds, and Respiratory Markers," Sensors, vol. 22, no. 3, p. 1130, feb. 2022. doi: 10.3390/s22031130.**
 </div>
