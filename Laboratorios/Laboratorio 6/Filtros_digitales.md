@@ -1,4 +1,5 @@
-## Artículo
+## Artículo 1
+<div align="justify">
 **A Wearable Multimodal Sensing System for Tracking Changes in Pulmonary Fluid Status, Lung Sounds, and Respiratory Markers**
 
 ---
@@ -26,3 +27,4 @@ El artículo emplea principalmente filtros de respuesta finita al impulso (FIR) 
 
 ### 4. Filtro de Fase Cero
 *   El artículo menciona explícitamente el uso de un filtro de fase cero para los sonidos pulmonares, esto es fundamental en el procesamiento ya que evita distorsiones de fase que podrían alterar la morfología de la señal original.
+</div>
