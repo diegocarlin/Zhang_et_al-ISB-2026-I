@@ -1,7 +1,7 @@
 <div align="justify">
   
-## Artículo 1
-**A Wearable Multimodal Sensing System for Tracking Changes in Pulmonary Fluid Status, Lung Sounds, and Respiratory Markers**
+## Artículo 1 
+**A Wearable Multimodal Sensing System for Tracking Changes in Pulmonary Fluid Status, Lung Sounds, and Respiratory Markers [1]**
 
 ---
 
@@ -34,5 +34,5 @@ El artículo emplea principalmente filtros de respuesta finita al impulso (FIR) 
 **Title**
 
 ## Referencias bibliográficas
-**J. A. Sanchez-Perez et al., "A Wearable Multimodal Sensing System for Tracking Changes in Pulmonary Fluid Status, Lung Sounds, and Respiratory Markers," Sensors, vol. 22, no. 3, p. 1130, feb. 2022. doi: 10.3390/s22031130.**
+**[1] J. A. Sanchez-Perez et al., "A Wearable Multimodal Sensing System for Tracking Changes in Pulmonary Fluid Status, Lung Sounds, and Respiratory Markers," Sensors, vol. 22, no. 3, p. 1130, feb. 2022. doi: 10.3390/s22031130.**
 </div>
