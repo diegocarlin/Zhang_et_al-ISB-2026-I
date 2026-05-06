@@ -1,22 +1,18 @@
-##Artículo
+## Artículo
 **A Wearable Multimodal Sensing System for Tracking Changes in Pulmonary Fluid Status, Lung Sounds, and Respiratory Markers**
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 El objetivo principal de este trabajo es presentar y evaluar la viabilidad de un **sistema de detección multimodal portátil**. Este dispositivo está diseñado para el monitoreo continuo y holístico del estado cardiopulmonar, específicamente en pacientes con **insuficiencia cardíaca**.
 
 ---
 
-## 🛠️ Tipos de Filtros Utilizados
-El sistema emplea principalmente filtros de **respuesta finita al impulso (FIR)** para el procesamiento de señales. A continuación, se detallan los filtros mencionados:
+## Tipos de Filtros Utilizados
+El artículo emplea principalmente filtros de respuesta finita al impulso (FIR) para el procesamiento de las señales. A continuación, se detallan los filtros mencionados:
 
 ### 1. Filtro Pasa-banda
-*   **Aplicación:** Sonidos pulmonares.
-*   **Rango:** 100 Hz a 1000 Hz.
-*   **Función:** Aislar las frecuencias de interés, suprimiendo la interferencia de:
-    *   Sonidos cardíacos (por debajo de 100 Hz).
-    *   Ruidos ambientales hospitalarios (por encima de 1000 Hz).
+*   **Se aplica para sonidos pulmonares (100 Hz a 1000 Hz) el articulo especifica que se usa un filtro para aislar las frecuencias de interés, suprimiendo la interferencia de sonidos cardíacos por debajo de 100Hz y ruidos ambientales del hospital por encima de 1000 Hz
 
 ### 2. Filtro FIR con Ventana Kaiser
 *   **Aplicación:** Señal de neumografía de impedancia.
