@@ -33,6 +33,19 @@ El artículo emplea principalmente filtros de respuesta finita al impulso (FIR) 
 ## Artículo 2
 **Diagnosis of insomnia sleep disorder using short time frequency analysis of PSD approach applied on EEG signal using channel ROC-LOC [2]**
 
+---
+
+## Objetivo
+El objetivo principal de este trabajo es desarrollar y evaluar un método para diagnosticar el insomnio usando señales del EEG analizadas mediante el análisis de frecuencia de tiempo reducido y la densidad espectral de potencia (PSD), enfocándose principalmente en el canal ROC-LOC de EEG**.
+
+---
+
+## Filtro Utilizado
+El artículo menciona que se realiza una etapa de preprocesamiento de las señales adquiridas antes de ser analizadas en distintas bandas de frecuencia, el filtro de preprocesamiento que se usó es el siguiente:
+
+### Filtro FIR Pasa-baja con ventana Hanning
+*   Se usó este filtro con la finalidad de eliminar 2 principales tipos de ruidos: el ruido eléctrico que aparece en altos valores de frecuencia y los artefactos causados por el movimiento corporal durante la etapa de sueño. Por ello, este filtro usa una frecuencia de corte de 25 Hz, asegurando la atenuación de altas frecuencias causadas por ruido, y permitiendo enfocarse en las frecuencias del EEG que mejor resaltan la actividad del sueño.
+
 ## Artículo 3
 **Title**
 
