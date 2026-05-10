@@ -44,5 +44,6 @@ El artículo emplea principalmente filtros de respuesta finita al impulso (FIR) 
 
 ## Referencias bibliográficas
 **[1] J. A. Sanchez-Perez et al., "A Wearable Multimodal Sensing System for Tracking Changes in Pulmonary Fluid Status, Lung Sounds, and Respiratory Markers," Sensors, vol. 22, no. 3, p. 1130, feb. 2022. doi: 10.3390/s22031130.**
+
 **[2] Siddiqui MM, et al. Diagnosis of insomnia sleep disorder using short time frequency analysis of PSD approach applied on EEG signal using channel ROC-LOC. Sleep Science (2016), http://dx.doi.org/10.1016/j.slsci.2016.07.002i.**
 </div>
