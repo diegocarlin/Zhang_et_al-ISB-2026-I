@@ -47,8 +47,39 @@ El artículo menciona que se realiza una etapa de preprocesamiento de las señal
 *   Se usó este filtro con la finalidad de eliminar 2 principales tipos de ruidos: el ruido eléctrico que aparece en altos valores de frecuencia y los artefactos causados por el movimiento corporal durante la etapa de sueño. Por ello, este filtro usa una frecuencia de corte de 25 Hz, asegurando la atenuación de altas frecuencias causadas por ruido, y permitiendo enfocarse en las frecuencias del EEG que mejor resaltan la actividad del sueño.
 
 ## Artículo 3
-**Title**
+**Design of Simulink Model to denoise ECG signal using various IIR & FIR filters [3]**
 
+---
+
+## Objetivo
+El objetivo principal de este artículo es el diseño y la implementación de modelos de simulación para eliminar el ruido de las señales de electrocardiograma (ECG) utilizando diversas técnicas de filtrado digital. El estudio busca identificar qué configuración de filtros (FIR vs. IIR) y qué tipos de ventanas (Hamming, Kaiser, etc.) ofrecen la mejor relación señal-ruido (SNR) para obtener un diagnóstico clínico preciso sin distorsionar la morfología del complejo QRS.
+
+---
+
+## Tipos de Filtros Utilizados
+El estudio detalla el uso de los siguientes filtros, los cuales son fundamentales en el procesamiento de señales biomédicas:
+
+### 1. Filtro Notch (Rechaza-banda) IIR
+* **Ruido que elimina:** Interferencia de la red eléctrica (Power Line Interference - PLI).
+* **Frecuencia del ruido:** Se sintoniza exactamente a **50 Hz o 60 Hz**. Es un ruido provocado por el acoplamiento electromagnético de los cables de alimentación del entorno hospitalario y los equipos de monitoreo cercanos.
+
+### 2. Filtro Pasa-alto FIR (Método de enventanado)
+* **Ruido que elimina:** Fluctuación de la línea base (Baseline Wander).
+* **Frecuencia del ruido:** Ruido de muy baja frecuencia, generalmente entre **0.05 Hz y 0.8 Hz**. Este ruido es causado por la mecánica de la respiración del paciente, el movimiento del cuerpo y las variaciones en la impedancia de la interfaz electrodo-piel.
+
+### 3. Filtro Pasa-bajo IIR Butterworth
+* **Ruido que elimina:** Ruido electromiográfico (EMG) y ruido térmico de alta frecuencia.
+* **Frecuencia del ruido:** Frecuencias por encima de los **100 Hz**. Proviene de la actividad eléctrica de los músculos esqueléticos cercanos al corazón. Se utiliza la aproximación Butterworth porque ofrece una banda de paso máximamente plana, evitando oscilaciones artificiales en la señal.
+
+### 4. Filtro FIR con Ventana de Kaiser
+* **Ruido que elimina:** Ruido de instrumentación y ruido de banda ancha.
+* **Frecuencia del ruido:** Elimina componentes fuera de la banda diagnóstica (típicamente **>150 Hz**). La ventana de Kaiser permite un ajuste fino entre el ancho del lóbulo principal y la atenuación de los lóbulos laterales, optimizando el rechazo del ruido sin perder nitidez en la señal.
+
+### 5. Filtro Pasa-banda FIR
+* **Ruido que elimina:** Artefactos simultáneos fuera de la banda de interés clínica del ECG.
+* **Frecuencia del ruido:** Se configura para dejar pasar exclusivamente el rango de **0.5 Hz a 45 Hz** (banda diagnóstica estándar), atenuando todo lo que esté por debajo (Baseline Wander) y por encima (ruido muscular) en una sola etapa de filtrado.
+
+---
 ## Artículo 4
 **Title**
 
@@ -60,3 +91,4 @@ El artículo menciona que se realiza una etapa de preprocesamiento de las señal
 
 **[2] M. M. Siddiqui, G. Srivastava, and S. H. Saeed, “Diagnosis of insomnia sleep disorder using short time frequency analysis of PSD approach applied on EEG signal using channel ROC-LOC,” Sleep Science, vol. 9, no. 3, pp. 186–191, Jul. 2016, doi: 10.1016/j.slsci.2016.07.002.**
 </div>
+**[3] C. Chandrakar y M. Kowar, "Design of Simulink Model to denoise ECG signal using various IIR & FIR filters," *International Journal of Advanced Research in Computer Science and Software Engineering*, vol. 2, no. 1, 2012.
