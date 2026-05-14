@@ -81,9 +81,23 @@ El estudio detalla el uso de los siguientes filtros, los cuales son fundamentale
 
 ---
 ## Artículo 4
-**Title**
+**Performance Analysis of Digital Notch Filters for Eliminating Power Line Interference from EMG Signals [4]**
 
+---
+## Objetivo
+El objetivo principal de este trabajo es evaluar el desempeño de diferentes configuraciones de filtros Notch (Rechaza-banda) para la eliminación de la interferencia de la línea eléctrica (PLI) en señales de electromiografía de superficie (sEMG). El estudio busca mitigar el ruido ambiental sin comprometer la integridad de la información espectral de la contracción muscular.
 ## Artículo 5
+
+---
+## Filtro Utilizado
+El artículo destaca el uso de filtros digitales específicos para la limpieza de la señal muscular:
+
+### Filtro Notch IIR (Infinite Impulse Response)
+* **Ruido que elimina: Interferencia de la red eléctrica (Power Line Interference - PLI).
+
+* **Frecuencia del ruido: Se sintoniza específicamente a 50 Hz (o 60 Hz dependiendo de la región). Este ruido es particularmente crítico en EMG porque el espectro de potencia de la señal muscular útil se solapa significativamente con esta frecuencia (el rango de la señal EMG suele estar entre 20 Hz y 500 Hz).
+
+* **Sustento Técnico: Se prefiere el uso de un filtro Notch de segundo orden debido a su alta selectividad (factor Q elevado). Esto permite crear una "muesca" muy estrecha en la respuesta en frecuencia, eliminando el armónico de la red eléctrica mientras se preservan las frecuencias adyacentes que contienen información sobre el reclutamiento de unidades motoras. El artículo menciona que, a diferencia de los filtros FIR, los IIR logran esta selectividad con un orden computacional mucho menor, lo que facilita el procesamiento en tiempo real.
 **Title**
 
 ## Referencias bibliográficas
@@ -92,3 +106,4 @@ El estudio detalla el uso de los siguientes filtros, los cuales son fundamentale
 **[2] M. M. Siddiqui, G. Srivastava, and S. H. Saeed, “Diagnosis of insomnia sleep disorder using short time frequency analysis of PSD approach applied on EEG signal using channel ROC-LOC,” Sleep Science, vol. 9, no. 3, pp. 186–191, Jul. 2016, doi: 10.1016/j.slsci.2016.07.002.**
 </div>
 **[3] C. Chandrakar y M. Kowar, "Design of Simulink Model to denoise ECG signal using various IIR & FIR filters," *International Journal of Advanced Research in Computer Science and Software Engineering*, vol. 2, no. 1, 2012.
+**[4] A. Kumar and R. P. Tewari, "Performance Analysis of Digital Notch Filters for Eliminating Power Line Interference from EMG Signals," International Journal of Biomedical Engineering and Technology, vol. 14, no. 1, pp. 22-34, 2014.
