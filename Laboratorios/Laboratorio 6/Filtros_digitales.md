@@ -105,6 +105,7 @@ El artículo destaca el uso de filtros digitales específicos para la limpieza d
 **[1] J. A. Sanchez-Perez et al., "A Wearable Multimodal Sensing System for Tracking Changes in Pulmonary Fluid Status, Lung Sounds, and Respiratory Markers," Sensors, vol. 22, no. 3, p. 1130, feb. 2022. doi: 10.3390/s22031130.**
 
 **[2] M. M. Siddiqui, G. Srivastava, and S. H. Saeed, “Diagnosis of insomnia sleep disorder using short time frequency analysis of PSD approach applied on EEG signal using channel ROC-LOC,” Sleep Science, vol. 9, no. 3, pp. 186–191, Jul. 2016, doi: 10.1016/j.slsci.2016.07.002.**
-</div>
+
 **[3] C. Chandrakar y M. Kowar, "Design of Simulink Model to denoise ECG signal using various IIR & FIR filters," *International Journal of Advanced Research in Computer Science and Software Engineering*, vol. 2, no. 1, 2012.
+
 **[4] A. Kumar and R. P. Tewari, "Performance Analysis of Digital Notch Filters for Eliminating Power Line Interference from EMG Signals," International Journal of Biomedical Engineering and Technology, vol. 14, no. 1, pp. 22-34, 2014.
