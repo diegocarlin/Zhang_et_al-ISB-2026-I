@@ -111,18 +111,18 @@ El objetivo principal de esta investigación es proponer un método híbrido que
 El artículo detalla un procesamiento en dos etapas para abordar diferentes fuentes de ruido:
 
 ### Filtro Adaptativo (Algoritmo LMS)
-* **Ruido que elimina: Artefactos oculares (EOG) causados por parpadeos o movimientos del globo ocular.
+* **Ruido que elimina:** Artefactos oculares (EOG) causados por parpadeos o movimientos del globo ocular.
 
-* **Frecuencia del ruido: Se enfoca en componentes de baja frecuencia, típicamente por debajo de los 4 Hz, que se solapan con las ondas delta del EEG.
+* **Frecuencia del ruido:** Se enfoca en componentes de baja frecuencia, típicamente por debajo de los 4 Hz, que se solapan con las ondas delta del EEG.
 
-* **Sustento Técnico: El filtro utiliza el algoritmo de Mínimos Cuadrados Medios (LMS) para ajustar dinámicamente sus coeficientes basándose en una señal de referencia de EOG. Esto permite estimar el componente de ruido presente en el canal de EEG y restarlo de manera precisa, superando las limitaciones de los filtros de banda fija que podrían eliminar información clínica relevante.
+* **Sustento Técnico:** El filtro utiliza el algoritmo de Mínimos Cuadrados Medios (LMS) para ajustar dinámicamente sus coeficientes basándose en una señal de referencia de EOG. Esto permite estimar el componente de ruido presente en el canal de EEG y restarlo de manera precisa, superando las limitaciones de los filtros de banda fija que podrían eliminar información clínica relevante.
 
 ### Transformada Wavelet Discreta (DWT) con Umbralización
-* **Ruido que elimina: Ruido electromiográfico (EMG) y ruido de banda ancha de la instrumentación.
+* **Ruido que elimina:** Ruido electromiográfico (EMG) y ruido de banda ancha de la instrumentación.
   
-* **Frecuencia del ruido: Se aplica para limpiar componentes de alta frecuencia, generalmente por encima de los 30 Hz, donde la actividad muscular interfiere con los ritmos beta y gamma.
+* **Frecuencia del ruido:** Se aplica para limpiar componentes de alta frecuencia, generalmente por encima de los 30 Hz, donde la actividad muscular interfiere con los ritmos beta y gamma.
 
-* **Sustento Técnico: La señal de EEG se descompone en diferentes niveles de resolución (sub-bandas de frecuencia). Al aplicar una técnica de umbralización (thresholding) a los coeficientes de detalle, se eliminan las oscilaciones de alta frecuencia que no corresponden a la actividad cerebral, preservando la morfología no estacionaria de la señal original.
+* **Sustento Técnico:** La señal de EEG se descompone en diferentes niveles de resolución (sub-bandas de frecuencia). Al aplicar una técnica de umbralización (thresholding) a los coeficientes de detalle, se eliminan las oscilaciones de alta frecuencia que no corresponden a la actividad cerebral, preservando la morfología no estacionaria de la señal original.
 ---
 
 ## Referencias bibliográficas
@@ -130,8 +130,8 @@ El artículo detalla un procesamiento en dos etapas para abordar diferentes fuen
 
 **[2] M. M. Siddiqui, G. Srivastava, and S. H. Saeed, “Diagnosis of insomnia sleep disorder using short time frequency analysis of PSD approach applied on EEG signal using channel ROC-LOC,” Sleep Science, vol. 9, no. 3, pp. 186–191, Jul. 2016, doi: 10.1016/j.slsci.2016.07.002.**
 
-**[3] C. Chandrakar y M. Kowar, "Design of Simulink Model to denoise ECG signal using various IIR & FIR filters," *International Journal of Advanced Research in Computer Science and Software Engineering*, vol. 2, no. 1, 2012.
+**[3] C. Chandrakar y M. Kowar, "Design of Simulink Model to denoise ECG signal using various IIR & FIR filters," *International Journal of Advanced Research in Computer Science and Software Engineering*, vol. 2, no. 1, 2012.**
 
-**[4] A. Kumar and R. P. Tewari, "Performance Analysis of Digital Notch Filters for Eliminating Power Line Interference from EMG Signals," International Journal of Biomedical Engineering and Technology, vol. 14, no. 1, pp. 22-34, 2014.
+**[4] A. Kumar and R. P. Tewari, "Performance Analysis of Digital Notch Filters for Eliminating Power Line Interference from EMG Signals," International Journal of Biomedical Engineering and Technology, vol. 14, no. 1, pp. 22-34, 2014.**
 
-**[5] S. K. Bashar, I. Bhuiyan, and M. Y. S. Uddin, "Denoising of EEG signals using adaptive filtering and wavelet transform for biological artifact removal," 2016 5th International Conference on Informatics, Electronics and Vision (ICIEV), Dhaka, Bangladesh, 2016, pp. 1018-1023. doi: 10.1109/ICIEV.2016.7760152.
+**[5] S. K. Bashar, I. Bhuiyan, and M. Y. S. Uddin, "Denoising of EEG signals using adaptive filtering and wavelet transform for biological artifact removal," 2016 5th International Conference on Informatics, Electronics and Vision (ICIEV), Dhaka, Bangladesh, 2016, pp. 1018-1023. doi: 10.1109/ICIEV.2016.7760152.**
