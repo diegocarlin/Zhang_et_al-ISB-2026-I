@@ -86,7 +86,6 @@ El estudio detalla el uso de los siguientes filtros, los cuales son fundamentale
 ---
 ## Objetivo
 El objetivo principal de este trabajo es evaluar el desempeño de diferentes configuraciones de filtros Notch (Rechaza-banda) para la eliminación de la interferencia de la línea eléctrica (PLI) en señales de electromiografía de superficie (sEMG). El estudio busca mitigar el ruido ambiental sin comprometer la integridad de la información espectral de la contracción muscular.
-## Artículo 5
 
 ---
 ## Filtro Utilizado
@@ -98,6 +97,8 @@ El artículo destaca el uso de filtros digitales específicos para la limpieza d
 * **Frecuencia del ruido: Se sintoniza específicamente a 50 Hz (o 60 Hz dependiendo de la región). Este ruido es particularmente crítico en EMG porque el espectro de potencia de la señal muscular útil se solapa significativamente con esta frecuencia (el rango de la señal EMG suele estar entre 20 Hz y 500 Hz).
 
 * **Sustento Técnico: Se prefiere el uso de un filtro Notch de segundo orden debido a su alta selectividad (factor Q elevado). Esto permite crear una "muesca" muy estrecha en la respuesta en frecuencia, eliminando el armónico de la red eléctrica mientras se preservan las frecuencias adyacentes que contienen información sobre el reclutamiento de unidades motoras. El artículo menciona que, a diferencia de los filtros FIR, los IIR logran esta selectividad con un orden computacional mucho menor, lo que facilita el procesamiento en tiempo real.
+---
+## Artículo 5
 **Title**
 
 ## Referencias bibliográficas
