@@ -99,7 +99,12 @@ El artículo destaca el uso de filtros digitales específicos para la limpieza d
 * **Sustento Técnico: Se prefiere el uso de un filtro Notch de segundo orden debido a su alta selectividad (factor Q elevado). Esto permite crear una "muesca" muy estrecha en la respuesta en frecuencia, eliminando el armónico de la red eléctrica mientras se preservan las frecuencias adyacentes que contienen información sobre el reclutamiento de unidades motoras. El artículo menciona que, a diferencia de los filtros FIR, los IIR logran esta selectividad con un orden computacional mucho menor, lo que facilita el procesamiento en tiempo real.
 ---
 ## Artículo 5
-**Title**
+**Denoising of EEG signals using adaptive filtering and wavelet transform for biological artifact removal**
+
+---
+##Objetivo
+El objetivo principal de esta investigación es proponer un método híbrido que combina el filtrado adaptativo y la transformada wavelet discreta (DWT) para eliminar artefactos biológicos de las señales de EEG. El estudio busca mejorar la calidad de la señal cerebral al reducir las interferencias causadas por movimientos oculares y actividad muscular sin distorsionar los ritmos fisiológicos del paciente.
+---
 
 ## Referencias bibliográficas
 **[1] J. A. Sanchez-Perez et al., "A Wearable Multimodal Sensing System for Tracking Changes in Pulmonary Fluid Status, Lung Sounds, and Respiratory Markers," Sensors, vol. 22, no. 3, p. 1130, feb. 2022. doi: 10.3390/s22031130.**
