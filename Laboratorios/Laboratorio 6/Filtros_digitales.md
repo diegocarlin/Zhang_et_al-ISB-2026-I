@@ -99,30 +99,30 @@ El artículo destaca el uso de filtros digitales específicos para la limpieza d
 * **Sustento Técnico: Se prefiere el uso de un filtro Notch de segundo orden debido a su alta selectividad (factor Q elevado). Esto permite crear una "muesca" muy estrecha en la respuesta en frecuencia, eliminando el armónico de la red eléctrica mientras se preservan las frecuencias adyacentes que contienen información sobre el reclutamiento de unidades motoras. El artículo menciona que, a diferencia de los filtros FIR, los IIR logran esta selectividad con un orden computacional mucho menor, lo que facilita el procesamiento en tiempo real.
 ---
 ## Artículo 5
-**Denoising of EEG signals using adaptive filtering and wavelet transform for biological artifact removal**
+**Detecting Noise Reduction in EMG Signals by Different Filtering Techniques [5]**
 
 ---
 
 ## Objetivo
-El objetivo principal de esta investigación es proponer un método híbrido que combina el filtrado adaptativo y la transformada wavelet discreta (DWT) para eliminar artefactos biológicos de las señales de EEG. El estudio busca mejorar la calidad de la señal cerebral al reducir las interferencias causadas por movimientos oculares y actividad muscular sin distorsionar los ritmos fisiológicos del paciente.
+El objetivo de este estudio es el filtrado de señales de **Electromiografía (EMG)** para reducir el ruido, lo cual es fundamental para aplicaciones biomédicas como el diagnóstico del nivel de fatiga, la rehabilitación y el control de movimientos en individuos con traumas espinales (C5 y C6).
 
 ---
+
 ## Tipos de Filtros Utilizados
-El artículo detalla un procesamiento en dos etapas para abordar diferentes fuentes de ruido:
+El artículo evalúa y compara tres tipos principales de filtros para la limpieza de la señal EMG:
 
-### Filtro Adaptativo (Algoritmo LMS)
-* **Ruido que elimina:** Artefactos oculares (EOG) causados por parpadeos o movimientos del globo ocular.
+### 1. Filtro Butterworth
+* Se implementó una combinación de filtros: un **pasa-altas de 2do orden (10 Hz)**, un **pasa-bajas de 8vo orden (400 Hz)** y un **filtro notch de seis niveles (50, 100, 150, 200, 250, 300 Hz)**.
+* Su función principal es eliminar el ruido de la línea eléctrica y los artefactos de movimiento.
 
-* **Frecuencia del ruido:** Se enfoca en componentes de baja frecuencia, típicamente por debajo de los 4 Hz, que se solapan con las ondas delta del EEG.
+### 2. Filtro Wiener
+* Es un filtro lineal que compara el ruido existente con la señal deseada en un solo esfuerzo de estimación.
+* Resultó ser el más efectivo, eliminando los mayores porcentajes de ruido según las métricas de dimensión de correlación.
 
-* **Sustento Técnico:** El filtro utiliza el algoritmo de Mínimos Cuadrados Medios (LMS) para ajustar dinámicamente sus coeficientes basándose en una señal de referencia de EOG. Esto permite estimar el componente de ruido presente en el canal de EEG y restarlo de manera precisa, superando las limitaciones de los filtros de banda fija que podrían eliminar información clínica relevante.
+### 3. Filtro Least Mean Square (LMS)
+* Es un filtro **adaptativo** que reduce el ruido minimizando el error cuadrático medio entre la señal de entrada y la señal fuente.
+* Ocupó el segundo lugar en efectividad después del filtro Wiener.
 
-### Transformada Wavelet Discreta (DWT) con Umbralización
-* **Ruido que elimina:** Ruido electromiográfico (EMG) y ruido de banda ancha de la instrumentación.
-  
-* **Frecuencia del ruido:** Se aplica para limpiar componentes de alta frecuencia, generalmente por encima de los 30 Hz, donde la actividad muscular interfiere con los ritmos beta y gamma.
-
-* **Sustento Técnico:** La señal de EEG se descompone en diferentes niveles de resolución (sub-bandas de frecuencia). Al aplicar una técnica de umbralización (thresholding) a los coeficientes de detalle, se eliminan las oscilaciones de alta frecuencia que no corresponden a la actividad cerebral, preservando la morfología no estacionaria de la señal original.
 ---
 
 ## Referencias bibliográficas
@@ -134,4 +134,4 @@ El artículo detalla un procesamiento en dos etapas para abordar diferentes fuen
 
 **[4] A. Kumar and R. P. Tewari, "Performance Analysis of Digital Notch Filters for Eliminating Power Line Interference from EMG Signals," International Journal of Biomedical Engineering and Technology, vol. 14, no. 1, pp. 22-34, 2014.**
 
-**[5] S. K. Bashar, I. Bhuiyan, and M. Y. S. Uddin, "Denoising of EEG signals using adaptive filtering and wavelet transform for biological artifact removal," 2016 5th International Conference on Informatics, Electronics and Vision (ICIEV), Dhaka, Bangladesh, 2016, pp. 1018-1023. doi: 10.1109/ICIEV.2016.7760152.**
+**[5] A. Koohestani and S. Jafari, "Detecting Noise Reduction in EMG Signals by Different Filtering Techniques," Advanced Science Letters, vol. 19, no. 12, pp. 3482-3487, 2013. doi: 10.1166/asl.2013.5230**
