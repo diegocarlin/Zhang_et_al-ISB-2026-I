@@ -43,8 +43,10 @@ https://github.com/user-attachments/assets/ba2e23e3-fee6-4d0a-800b-c7fae714dbc6
 ## 2. Registro Fotográfico y Audiovisual
 * **Colocación de los electrodos para EEG en la frente**
 <img width="1200" height="1600" alt="6dd7f591-f8f1-4d76-abe2-727578f20378" src="https://github.com/user-attachments/assets/072b77f8-53b9-4cfa-a081-372777ed394e" />
+
 * **Toma de la señal basal**
 <img width="1200" height="1600" alt="176af3bb-8c24-49e5-8c65-b49d9010ad2b" src="https://github.com/user-attachments/assets/7a975b13-7927-4d7c-bd79-cfc6fd35e362" />
+
 * **Mirar a un punto fijo (parte superior de la botella)**
 <img width="1200" height="1600" alt="f46bc9ea-8f44-4438-8d72-2d5aa71a88e8" src="https://github.com/user-attachments/assets/c7b65fbd-7fd5-46fd-af5a-d9624a3b201c" />
 
