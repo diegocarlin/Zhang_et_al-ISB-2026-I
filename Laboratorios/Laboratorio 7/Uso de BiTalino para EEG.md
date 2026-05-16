@@ -20,7 +20,11 @@ Una vez adheridos, los electrodos se conectaron a los terminales del BiTalino, v
 El registro de la señal EEG se dividió en seis fases continuas, diseñadas para evaluar la actividad cerebral ante diferentes estímulos y aislar los artefactos fisiológicos. El sujeto fue ubicado en un entorno aislado y libre de contacto con superficies vibratorias para mitigar el ruido mecánico.
 
 * **Fase 1: Línea Basal con Privación Sensorial (1 minuto)**
-    Se buscó registrar la actividad cerebral en el estado más neutro posible (predominancia esperada de ritmos Alfa).Para ello, el participante se colocó los audífonos para aislar el sonido externo de forma puramente pasiva, se cubrió la vista completamente con un polo y se le indicó mantener una postura estática, evitando cualquier movimiento facial.
+    Se buscó registrar la actividad cerebral en el estado más neutro posible (predominancia esperada de ritmos Alfa).Para ello, el participante se colocó los audífonos para aislar el sonido externo de forma puramente pasiva, se cubrió la vista completamente con un polo y se le indicó mantener una postura estática, evitando cualquier movimiento facial. Además se apagaron las luces del salón y se procuraba hablar en un tono de voz bajo para evitar el menor número de estimulaciones posible.
+
+https://github.com/user-attachments/assets/ba2e23e3-fee6-4d0a-800b-c7fae714dbc6
+
+
 * **Fase 2: Apertura Ocular y Fijación Visual (1 a 1.5 minutos)**
     Se retiró la oclusión visual. El sujeto abrió los ojos y mantuvo la mirada fija en un punto específico frente a él, con el objetivo de observar la atenuación del ritmo Alfa y la transición hacia el ritmo Beta.
 * **Fase 3: Recuperación de Línea Basal (30 segundos)**
@@ -37,7 +41,25 @@ El registro de la señal EEG se dividió en seis fases continuas, diseñadas par
     4.  **Estímulo Auditivo Estresante (1 minuto):** Se cambió a una pista musical caótica, densa y con múltiples instrumentos superpuestos para evaluar los cambios en la actividad cerebral ante estrés acústico.
 
 ## 2. Registro Fotográfico y Audiovisual
-
+**Colocación de los electrodos para EEG en la frente
+<img width="1200" height="1600" alt="6dd7f591-f8f1-4d76-abe2-727578f20378" src="https://github.com/user-attachments/assets/072b77f8-53b9-4cfa-a081-372777ed394e" />
+**Toma de la señal basal
+<img width="1200" height="1600" alt="176af3bb-8c24-49e5-8c65-b49d9010ad2b" src="https://github.com/user-attachments/assets/7a975b13-7927-4d7c-bd79-cfc6fd35e362" />
+**Mirar a un punto fijo (parte superior de la botella)
+<img width="1200" height="1600" alt="f46bc9ea-8f44-4438-8d72-2d5aa71a88e8" src="https://github.com/user-attachments/assets/c7b65fbd-7fd5-46fd-af5a-d9624a3b201c" />
+https://github.com/user-attachments/assets/ccd4e420-aa25-4d37-9421-2466a58a2533
+**Parpadeo y masticación al mismo tiempo para instroducir artefactos a la señal
+<img width="1200" height="1600" alt="8ca64ae7-a8e3-485d-9119-ac9d5827b709" src="https://github.com/user-attachments/assets/289cb435-e074-4d34-a433-0abf8b3bd3b6" />
+https://github.com/user-attachments/assets/63f8198b-ca66-4fcb-93f2-448bb02d0c3d
+**Carga cognitiva simple
+https://github.com/user-attachments/assets/6c3c8f59-f2f5-4690-9470-78111f866208
+**Carga cognitiva compleja
+https://github.com/user-attachments/assets/48c3e65f-57c3-4521-84bc-708396b41eb1
+**Estímulo auditivo relajante
+https://github.com/user-attachments/assets/c3692684-2ea0-470e-94db-d687b33352b5
+**Estímulo auditivo estresante
+https://github.com/user-attachments/assets/22c315e5-5c30-4a24-a6e8-971ae2248be3
+<img width="1200" height="1600" alt="ef708ae6-6eba-4b84-b850-8175cf871f68" src="https://github.com/user-attachments/assets/a7d90e3b-ee98-4db7-97fd-151a9e7f45ff" />
 
 ## 3. Ploteo de Señales en OpenSignals
 
