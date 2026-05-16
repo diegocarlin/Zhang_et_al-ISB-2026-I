@@ -94,9 +94,5 @@ A continuación se presentan las gráficas obtenidas directamente de la interfaz
 
 ## 5. Datos y Procesamiento en Python
 
-### 5.1. Archivos de Datos Crudos
-
-
-
-### 5.2. Código de Ploteo
+# Esta información se puede encontrar en la misma carpeta del Laboratorio 7 en el apartado de Señales EEG (archivo de formato .ipynb)
 
