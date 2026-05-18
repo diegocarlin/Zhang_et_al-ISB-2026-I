@@ -116,16 +116,21 @@ La señal se vuelve visiblemente más ruidosa, presentando más altas frecuencia
 ## 5. Datos y Procesamiento en Python
 ### 1.1. Señal de linea basal 1'
 <img width="682" height="264" alt="image" src="https://github.com/user-attachments/assets/f7ca6c9b-1d29-4bb1-8c1f-9602c7f281da" />
+
 ### 1.2. Señal de abrir ojos y fijar en un punto 1' - 1' 30''
 <img width="686" height="269" alt="image" src="https://github.com/user-attachments/assets/e556f799-51e4-4c60-b9f6-4234f095415b" />
+
 ### 1.3. Señal con artefactos (parpadeo 2' y masticación) durante 35''
 <img width="693" height="253" alt="image" src="https://github.com/user-attachments/assets/3b0e9464-1683-4f7e-af27-1c2431fbea72" />
+
 ### 1.4. Señal de 3 preguntas sencillas y 3 preguntas complejas durante 120''
 <img width="686" height="258" alt="image" src="https://github.com/user-attachments/assets/0465496c-9144-4ce4-823b-8b932fc5356e" />
 <img width="700" height="257" alt="image" src="https://github.com/user-attachments/assets/858a93c9-cfa7-454a-9552-9692eea84bb6" />
 <img width="691" height="258" alt="image" src="https://github.com/user-attachments/assets/d6bc0674-835c-4658-80b4-d98ee7d8c0e2" />
+
 ### 1.5. Señal de musica relajante por 1'
 <img width="682" height="263" alt="image" src="https://github.com/user-attachments/assets/a9a6162f-056d-4fe9-a3fe-c1509c1d2753" />
+
 ### 1.6. Señal música estresante durante 1'
 <img width="682" height="254" alt="image" src="https://github.com/user-attachments/assets/6865905d-c5ee-4b16-ae2d-ef3da211f8f6" />
 
