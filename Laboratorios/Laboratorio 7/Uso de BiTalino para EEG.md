@@ -91,29 +91,43 @@ A continuación se presentan las gráficas obtenidas directamente de la interfaz
 
 ## 4. Análisis de la Señal
 
-* Señal basal (Ojos y oídos tapados): 
+### Señal basal (Ojos y oídos tapados): 
 La señal fluctúa de manera estable en un bajo rango, entre - 10 uV y + 10 uV. Se observa que la oscilación de la señal sigue un ritmo constante, y menos saturado que las demás señales. Como los ojos están cerrados, la señal tiende a estar predominada por el ritmo alfa (8-13 Hz), característico de un estado de vigilia tranquila. Sin embargo, se pueden observar 2 artefactos en la señal, éstos pueden ser causados por movimientos oculares subyacentes (debajo del párpado).
 
-* Señal con los ojos abiertos (mirando a un punto fijo): 
+### Señal con los ojos abiertos (mirando a un punto fijo): 
 La señal fluctúa en el rango de -15 uV a + 15 uV, y presenta una mayor densidad que la anterior, debido a la concentración en un punto fijo, bloqueando así distracciones externas. Esta concentración provoca el reemplazo del ritmo alfa por el ritmo beta (14-30 Hz), lo que refleja el estado de atención. Además, presenta algunos artefactos, causados por el parpadeo del ojo.
 
-* Señal de artefactos: 
+### Señal de artefactos: 
 La señal presenta un patrón desordenado y caótico en toda su duración, oscilando violentamente entre los límites de la gráfica. Este desorden es causado por el constante movimiento realizado por el usuario (Parpadeo constante y masticación excesiva) que terminan deformando la señal en gran medida.
 
-* Señal de preguntas sencillas: 
+### Señal de preguntas sencillas: 
 La señal tiene un ritmo constante, similar a la vista en la señal basal, pero se observa una mayor fluidez, típica de una carga cognitiva moderada. Esto indica un nivel de alerta presente para el proceso de la información.
 
-* Señal de preguntas complejas: 
+### Señal de preguntas complejas: 
 La señal presenta picos negativos y positivos en su medición, volviéndola irregular, con una mayor densidad. El procesamiento de estas preguntas complejas genera un incremento en las bandas de frecuencia gamma, asociadas a este tipo de procesamiento. Además, la aparición más frecuente de estos picos se debe a la aparición de micro-parpadeos o tensión facial involuntaria por la complejidad de las preguntas.
 
-* Señal de música relajante: 
+### Señal de música relajante: 
 La señal muestra un comportamiento armónico, causado por el relajamiento del usuario gracias a la música relajante, incrementando los ritmos alfas en la señal y reduciendo la aparición de frecuencias rápidas asociadas a la ansiedad.
 
-* Señal de música estresante: 
+### Señal de música estresante: 
 La señal se vuelve visiblemente más ruidosa, presentando más altas frecuencias que la señal de música relajante. Esto se debe al estado de frustración o desagrado causado por la música, lo que reduce las ondas lentas y dispara los ritmos gamma en la señal.
 
 
 ## 5. Datos y Procesamiento en Python
+### 1.1. Señal de linea basal 1'
+<img width="682" height="264" alt="image" src="https://github.com/user-attachments/assets/f7ca6c9b-1d29-4bb1-8c1f-9602c7f281da" />
+### 1.2. Señal de abrir ojos y fijar en un punto 1' - 1' 30''
+<img width="686" height="269" alt="image" src="https://github.com/user-attachments/assets/e556f799-51e4-4c60-b9f6-4234f095415b" />
+### 1.3. Señal con artefactos (parpadeo 2' y masticación) durante 35''
+<img width="693" height="253" alt="image" src="https://github.com/user-attachments/assets/3b0e9464-1683-4f7e-af27-1c2431fbea72" />
+### 1.4. Señal de 3 preguntas sencillas y 3 preguntas complejas durante 120''
+<img width="686" height="258" alt="image" src="https://github.com/user-attachments/assets/0465496c-9144-4ce4-823b-8b932fc5356e" />
+<img width="700" height="257" alt="image" src="https://github.com/user-attachments/assets/858a93c9-cfa7-454a-9552-9692eea84bb6" />
+<img width="691" height="258" alt="image" src="https://github.com/user-attachments/assets/d6bc0674-835c-4658-80b4-d98ee7d8c0e2" />
+### 1.5. Señal de musica relajante por 1'
+<img width="682" height="263" alt="image" src="https://github.com/user-attachments/assets/a9a6162f-056d-4fe9-a3fe-c1509c1d2753" />
+### 1.6. Señal música estresante durante 1'
+<img width="682" height="254" alt="image" src="https://github.com/user-attachments/assets/6865905d-c5ee-4b16-ae2d-ef3da211f8f6" />
 
-# Esta información se puede encontrar en la misma carpeta del Laboratorio 7 en el apartado de Señales EEG (archivo de formato .ipynb)
+### Esta información se puede encontrar en la misma carpeta del Laboratorio 7 en el apartado de Señales EEG (archivo de formato .ipynb)
 
