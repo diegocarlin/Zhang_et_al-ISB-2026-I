@@ -91,6 +91,27 @@ A continuación se presentan las gráficas obtenidas directamente de la interfaz
 
 ## 4. Análisis de la Señal
 
+* **Señal basal (Ojos y oídos tapados)**
+La señal fluctúa de manera estable en un bajo rango, entre - 10 uV y + 10 uV. Se observa que la oscilación de la señal sigue un ritmo constante, y menos saturado que las demás señales. Como los ojos están cerrados, la señal tiende a estar predominada por el ritmo alfa (8-13 Hz), característico de un estado de vigilia tranquila. Sin embargo, se pueden observar 2 artefactos en la señal, éstos pueden ser causados por movimientos oculares subyacentes (debajo del párpado).
+
+* **Señal con los ojos abiertos (mirando a un punto fijo)**
+La señal fluctúa en el rango de -15 uV a + 15 uV, y presenta una mayor densidad que la anterior, debido a la concentración en un punto fijo, bloqueando así distracciones externas. Esta concentración provoca el reemplazo del ritmo alfa por el ritmo beta (14-30 Hz), lo que refleja el estado de atención. Además, presenta algunos artefactos, causados por el parpadeo del ojo.
+
+* **Señal de artefactos**
+La señal presenta un patrón desordenado y caótico en toda su duración, oscilando violentamente entre los límites de la gráfica. Este desorden es causado por el constante movimiento realizado por el usuario (Parpadeo constante y masticación excesiva) que terminan deformando la señal en gran medida.
+
+* **Señal de preguntas sencillas**
+La señal tiene un ritmo constante, similar a la vista en la señal basal, pero se observa una mayor fluidez, típica de una carga cognitiva moderada. Esto indica un nivel de alerta presente para el proceso de la información.
+
+* **Señal de preguntas complejas**
+La señal presenta picos negativos y positivos en su medición, volviéndola irregular, con una mayor densidad. El procesamiento de estas preguntas complejas genera un incremento en las bandas de frecuencia gamma, asociadas a este tipo de procesamiento. Además, la aparición más frecuente de estos picos se debe a la aparición de micro-parpadeos o tensión facial involuntaria por la complejidad de las preguntas.
+
+* **Señal de música relajante**
+La señal muestra un comportamiento armónico, causado por el relajamiento del usuario gracias a la música relajante, incrementando los ritmos alfas en la señal y reduciendo la aparición de frecuencias rápidas asociadas a la ansiedad.
+
+* **Señal de música estresante*
+La señal se vuelve visiblemente más ruidosa, presentando más altas frecuencias que la señal de música relajante. Esto se debe al estado de frustración o desagrado causado por la música, lo que reduce las ondas lentas y dispara los ritmos gamma en la señal.
+
 
 ## 5. Datos y Procesamiento en Python
 
