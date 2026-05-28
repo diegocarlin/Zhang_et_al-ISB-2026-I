@@ -14,11 +14,18 @@
    Desde una perspectiva técnica, la extracción de estos patrones neuromusculares mediante electromiografía de superficie (EMG) durante una prueba dinámica presenta un desafío significativo. La señal bruta capturada en movimiento es altamente susceptible a artefactos por desplazamiento de cables, variaciones en la interfaz electrodo-piel y contaminación por ruido de la red eléctrica (60 Hz). Por lo tanto, existe la necesidad de implementar una arquitectura rigurosa de filtrado digital sobre las señales en tiempo discreto para aislar la actividad eléctrica real. Sin este procesamiento crítico, las variaciones originadas por el ruido podrían interpretarse erróneamente como diferencias fisiológicas al calcular métricas como el Índice de Co-activación (CCI), invalidando la comparación entre los grupos.
 
 3. # **Objetivo General**
-   Diseñar, implementar y validar un sistema integral de procesamiento digital de señales electromiográficas de superficie (sEMG) enfocado en la cuantificación precisa del Índice de Co-activación muscular durante pruebas de esfuerzo dinámico. Este sistema computacional busca evaluar exhaustivamente el desempeño de las etapas de filtrado y extracción de características frente a la variabilidad biológica que presentan diferentes perfiles de composición corporal, garantizando la obtención de métricas neuromusculares confiables y el rechazo efectivo de las interferencias inherentes al proceso de adquisición electromiográfica.
+   Diseñar, implementar y validar un sistema integral de procesamiento digital de señales electromiográficas de superficie (sEMG) enfocado en la cuantificación del Índice de Co-activación muscular durante pruebas de esfuerzo dinámico. Este sistema computacional busca evaluar el desempeño de las etapas de filtrado y extracción de características frente a la variabilidad biológica que presentan diferentes perfiles de composición corporal, garantizando la obtención de métricas neuromusculares confiables y el rechazo efectivo de las interferencias inherentes al proceso de adquisición electromiográfica.
 
     **Objetivos Específicos**
+   
   **a) Definir y ejecutar un protocolo estandarizado de adquisición de señales biomédicas:**
 Establecer un esquema metodológico que permita el registro sEMG multicanal sincronizado para capturar la actividad bioeléctrica en tiempo real de los músculos agonistas y antagonistas de la extremidad inferior. Este procedimiento debe asegurar condiciones experimentales rigurosas mientras los sujetos ejecutan tareas motoras dinámicas, proporcionando una base de datos de señales brutas adecuada para la posterior evaluación de los algoritmos de procesamiento digital. 
+
+  **b) Implementar una arquitectura de acondicionamiento digital para la atenuación de ruido:**
+  
+  **c) Desarrollar algoritmos computacionales para la extracción de características temporales:**
+
+  **d) Validar el desempeño del procesamiento mediante análisis estadístico comparativo:**
    
    
 5. # **Propuesta de solución**
