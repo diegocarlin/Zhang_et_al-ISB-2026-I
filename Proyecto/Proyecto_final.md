@@ -16,7 +16,7 @@
 3. # **Objetivo General**
    Diseñar, implementar y validar un sistema integral de procesamiento digital de señales electromiográficas de superficie (sEMG) enfocado en la cuantificación del Índice de Co-activación muscular durante pruebas de esfuerzo dinámico. Este sistema computacional busca evaluar el desempeño de las etapas de filtrado y extracción de características frente a la variabilidad biológica que presentan diferentes perfiles de composición corporal, garantizando la obtención de métricas neuromusculares confiables y el rechazo efectivo de las interferencias inherentes al proceso de adquisición electromiográfica.
 
-    **Objetivos Específicos**
+   **Objetivos Específicos**
    
   **a) Definir y ejecutar un protocolo estandarizado de adquisición de señales biomédicas:**
 Establecer un esquema metodológico que permita el registro sEMG multicanal sincronizado para capturar la actividad bioeléctrica en tiempo real de los músculos agonistas y antagonistas de la extremidad inferior. Este procedimiento debe asegurar condiciones experimentales rigurosas mientras los sujetos ejecutan tareas motoras dinámicas, proporcionando una base de datos de señales brutas adecuada para la posterior evaluación de los algoritmos de procesamiento digital. 
