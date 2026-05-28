@@ -50,7 +50,7 @@
 		  - Índice de co-activación (CCI)  
 		- Comparación entre grupos
 
-	**Fase 3: Interpretación y presentación**
+	**Fase 4: Interpretación y presentación**
 
 		- Análisis de resultados  
 		- Comparación con literatura preexistente  
