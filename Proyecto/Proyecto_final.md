@@ -13,7 +13,15 @@
    En población universitaria, caracterizada por altos niveles de sedentarismo y variabilidad en la composición corporal, existe una falta de estudios que analicen cómo estas diferencias influyen en la activación muscular durante tareas de control postural. Esta limitación impide diseñar estrategias de prevención personalizadas basadas en evidencia neuromuscular.  
    Desde una perspectiva técnica, la extracción de estos patrones neuromusculares mediante electromiografía de superficie (EMG) durante una prueba dinámica presenta un desafío significativo. La señal bruta capturada en movimiento es altamente susceptible a artefactos por desplazamiento de cables, variaciones en la interfaz electrodo-piel y contaminación por ruido de la red eléctrica (60 Hz). Por lo tanto, existe la necesidad de implementar una arquitectura rigurosa de filtrado digital sobre las señales en tiempo discreto para aislar la actividad eléctrica real. Sin este procesamiento crítico, las variaciones originadas por el ruido podrían interpretarse erróneamente como diferencias fisiológicas al calcular métricas como el Índice de Co-activación (CCI), invalidando la comparación entre los grupos.
 
-3. # **Propuesta de solución**
+3. # **Objetivo General**
+   Diseñar, implementar y validar un sistema integral de procesamiento digital de señales electromiográficas de superficie (sEMG) enfocado en la cuantificación precisa del Índice de Co-activación muscular durante pruebas de esfuerzo dinámico. Este sistema computacional busca evaluar exhaustivamente el desempeño de las etapas de filtrado y extracción de características frente a la variabilidad biológica que presentan diferentes perfiles de composición corporal, garantizando la obtención de métricas neuromusculares confiables y el rechazo efectivo de las interferencias inherentes al proceso de adquisición electromiográfica.
+
+    **Objetivos Específicos**
+  **a) Definir y ejecutar un protocolo estandarizado de adquisición de señales biomédicas:**
+Establecer un esquema metodológico que permita el registro sEMG multicanal sincronizado para capturar la actividad bioeléctrica en tiempo real de los músculos agonistas y antagonistas de la extremidad inferior. Este procedimiento debe asegurar condiciones experimentales rigurosas mientras los sujetos ejecutan tareas motoras dinámicas, proporcionando una base de datos de señales brutas adecuada para la posterior evaluación de los algoritmos de procesamiento digital. 
+   
+   
+5. # **Propuesta de solución**
 
    Ante la limitación de las pruebas funcionales convencionales para revelar las estrategias neuromusculares subyacentes al control postural. Se propone un enfoque de evaluación bifuncional que combina el Y-Balance Test con el registro simultáneo de electromiografía de superficie (EMG) en estudiantes de 18 a 25 años de la Universidad Cayetano Heredia, agrupados según su composición corporal. Durante la ejecución del test, se registrará la actividad eléctrica de ocho músculos de la extremidad inferior de apoyo, extrayendo de cada señal los indicadores de amplitud (RMS) y frecuencia mediana, a partir de los cuales se calculará el Índice de Co-activación (CCI) entre pares agonista-antagonista.  
      
@@ -26,7 +34,7 @@
    Fig 2: Colocación de electrodos para el examen de la función de los músculos vasto lateral, vasto medial, bíceps femoral y semitendinoso \[5\]  
    
 
-5. # Plan de actividades
+6. # Plan de actividades
 
    **Fase 1: Diseño y validación del protocolo**
     
@@ -57,7 +65,7 @@
 		- Conclusiones  
 		- Informe final
 
-5. # **Bibliografía**
+7. # **Bibliografía**
 
    \[1\] A. Patti, F. Fischetti, F. N. Sahin, y A. Bianco, "Editorial: Postural control, exercise physiology and the balance training-type of exercises, mechanisms and insights," Front. Physiol., vol. 14, art. no. 1149733, feb. 2023, doi: 10.3389/fphys.2023.1149733.  
      
