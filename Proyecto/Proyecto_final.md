@@ -20,11 +20,13 @@
 
    **a) Definir y ejecutar un protocolo estandarizado de adquisición de señales biomédicas:**
    Establecer un esquema metodológico que permita el registro sEMG multicanal sincronizado para capturar la actividad bioeléctrica en tiempo real de los músculos agonistas y antagonistas de la extremidad inferior. Este procedimiento debe asegurar condiciones experimentales rigurosas mientras los sujetos ejecutan tareas motoras dinámicas, proporcionando una base de datos de señales brutas adecuada para la posterior evaluación de los algoritmos de procesamiento digital.
-
+   
    **b) Implementar una arquitectura de acondicionamiento digital para la atenuación de ruido:**
    Diseñar y aplicar filtros digitales (como un filtro pasa-banda para delimitar el espectro útil de la sEMG y un filtro Notch para eliminar la interferencia de 60 Hz de la red eléctrica) que permitan suprimir artefactos de movimiento y ruido electromagnético, obteniendo una señal discreta limpia y apta para el análisis.
+   
    **c) Desarrollar algoritmos computacionales para la extracción de características temporales:**
    Programar rutinas (por ejemplo, en MATLAB) para calcular la envolvente lineal de la señal —mediante rectificación y filtrado pasa-bajo o cálculo RMS— y posteriormente cuantificar el Índice de Co-activación (CCI) entre los músculos durante cada fase de alcance del Y-Balance Test.
+   
    **d) Validar el desempeño del procesamiento mediante análisis estadístico comparativo:**
    Contrastar las métricas neuromusculares (CCI) obtenidas entre los tres grupos de composición corporal, evaluando la robustez de los algoritmos frente a la variabilidad intersujeto para determinar si existen diferencias significativas en las estrategias de control postural.
    
